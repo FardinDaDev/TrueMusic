@@ -16,20 +16,20 @@ header {
     text-align: center;
 }
 
-.nav ul {
+nav ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
 }
 
-.nav li {
+nav li {
     background-color: rgb(128, 128, 128);
     padding: 10px;
     padding-left: 20px;
     border-top: 1px solid white;
 }
 
-.nav ul li a {
+nav ul li a {
     text-align: center;
     color: white;
     text-decoration: none;
@@ -43,11 +43,11 @@ div#wrapper {
 }
 
 @media all and (min-width: 550px) {
-    .nav ul {
+    nav ul {
         background-color: rgb(128, 128, 128);
         border-top: 1px solid white;
     }
-    .nav li {
+    nav li {
         display: inline-block;
         border: none;
     }
