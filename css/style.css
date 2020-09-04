@@ -38,6 +38,10 @@ header {
     font-weight: 700;
 }
 
+div#wrapper {
+    background-color: white;
+}
+
 @media all and (min-width: 550px) {
     .nav ul {
         background-color: rgb(128, 128, 128);
@@ -90,9 +94,6 @@ header {
     }
 }
 
-div#wrapper {
-    background-color: white;
-}
 
 img#logo {
     width: 320px;
@@ -100,12 +101,6 @@ img#logo {
 
 img {
     width: 100%;
-}
-
-.center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
 }
 
 .kopje {
